@@ -12,7 +12,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 Desktop View
 
-<img src="./images/sol-mobile.png" alt="Mobile Preview" style="width:50%;"/>
+<img src="./images/sol-mobile.png" alt="Mobile Preview" style="width:25%;"/>
 
 Desktop View
 
