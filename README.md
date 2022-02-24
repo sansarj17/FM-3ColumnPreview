@@ -18,7 +18,7 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-component-hXg-CjnI7)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/)
 - Live Site URL: [Live Site](https://sansarj17.github.io/FM-3ColumnPreview/)
 
 ### Built with
