@@ -14,7 +14,7 @@ Desktop View
 
 <img src="./images/sol-mobile.png" alt="Mobile Preview" style="width:25%;"/>
 
-Desktop View
+Mobile View
 
 ### Links
 
