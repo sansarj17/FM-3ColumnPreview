@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Fonts
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 15px; */
+
+:root {
+  /* ### Primary */
+  --BrightOrange: hsl(31, 77%, 52%);
+  --DarkCyan: hsl(184, 100%, 22%);
+  --VeryDarkCyan: hsl(179, 100%, 13%);
+  /* ### Neutral */
+  --TransparentWhiteParas: hsla(0, 0%, 100%, 0.75);
+  --VeryLightGrayBG-Head-Btn: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--VeryLightGrayBG-Head-Btn);
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+}
+p,
+button {
+  font-family: "Lexend Deca";
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 40px;
+  padding-right: 66px;
+}
+
+.card h1 {
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBG-Head-Btn);
+  margin: 25px 0;
+  font-weight: 600;
+}
+
+.card p {
+  color: var(--TransparentWhiteParas);
+  font-size: 12px;
+  line-height: 1.7;
+  padding: 0 30px 0 0;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: var(--VeryLightGrayBG-Head-Btn);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.box-1 {
+  background-color: var(--BrightOrange);
+}
+.box-2 {
+  background-color: var(--DarkCyan);
+}
+.box-3 {
+  background-color: var(--VeryDarkCyan);
+}
+
+.box-1 button {
+  color: var(--BrightOrange);
+}
+.box-2 button {
+  color: var(--DarkCyan);
+}
+.box-3 button {
+  color: var(--VeryDarkCyan);
+}
+
+.box-1 button:hover {
+  background-color: transparent;
+  color: var(--VeryLightGrayBG-Head-Btn);
+  border: 2px solid var(--VeryLightGrayBG-Head-Btn);
+  padding: 8px 18px;
+}
+.box-2 button:hover {
+  background-color: transparent;
+  color: var(--VeryLightGrayBG-Head-Btn);
+  border: 2px solid var(--VeryLightGrayBG-Head-Btn);
+  padding: 8px 18px;
+}
+.box-3 button:hover {
+  background-color: transparent;
+  color: var(--VeryLightGrayBG-Head-Btn);
+  border: 2px solid var(--VeryLightGrayBG-Head-Btn);
+  padding: 8px 18px;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    height: 100%;
+    margin: 60px auto;
+  }
+
+  .container {
+    max-width: 300px;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding-right: 40px;
+  }
+  .card h1 {
+    margin: 20px 0;
+  }
+  .card p {
+    font-size: 12px;
+    line-height: 1.7;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  button {
+    margin-bottom: 10px;
+  }
+}
