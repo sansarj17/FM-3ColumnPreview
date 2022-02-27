@@ -18,7 +18,7 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-column-preview-r8eETRMDS)
 - Live Site URL: [Live Site](https://sansarj17.github.io/FM-3ColumnPreview/)
 
 ### Built with
